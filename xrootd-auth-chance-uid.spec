@@ -14,7 +14,7 @@ BuildRequires: cmake >= 2.6
 BuildRequires: xrootd4-server-devel >= 4.0
 BuildRequires: xrootd4-private-devel >= 4.0
 
-Requires: xrootd4-server >= 4.0
+Requires: xrootd4 >= 4.0
 
 
 %description
