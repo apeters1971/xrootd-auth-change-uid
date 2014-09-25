@@ -8,6 +8,9 @@ set( VERSION_PATCH "0")
 cmake_minimum_required( VERSION 2.6 )
 project( AuthChangeFsUid )
 
+
+set( CMAKE_INSTALL_PREFIX /usr )
+
 set( CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/src ${PROJECT_SOURCE_DIR}/cmake )
 
 if( MacOSX )
